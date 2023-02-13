@@ -41,7 +41,7 @@ p{
 }
 .results{
     overflow-y: auto;
-    max-height: 500px;
+    max-height: 350px;
 }
 .result{
     padding: 1rem;

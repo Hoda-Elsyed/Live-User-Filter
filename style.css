@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'); 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #f6f7fb; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+    width: 300px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3),2px 2px 20px rgba(0,0,0,0.3);
+    border-radius: 7px;
+}
+.search{
+    border-radius: 7px 7px 0 0;
+    background-color: #3251D5;
+    padding: 1rem;
+    color: white;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    padding:  0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    background-color: #223993;
+    color: inherit;
+}
+p{
+    font-size: 0.7rem;
+    margin: 0.3rem 0;
+}
+.results{
+    overflow-y: auto;
+    max-height: 500px;
+}
+.result{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.img-div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.5rem;
+}
+small{
+    font-size: 0.7rem;
+}
